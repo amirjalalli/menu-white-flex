@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+
+}
+.top-menu{
+    background-color: sandybrown;
+    margin: 20px 0;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.menu-sing{
+    display: flex;
+}
+.menu-sing .first-div{
+    margin-right: 30px
+}
+.item{
+    padding: 20px 0;
+}
+div{
+    font-size: 20px;
+}
