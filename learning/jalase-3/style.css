@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container-1{
+    display: flex;
+    background-color: brown;
+    flex-flow: wrap row;
+}
+.container-2{
+    display: flex;
+    background-color: darkolivegreen;
+    flex-flow: wrap row-reverse;
+}
+.container-3{
+    display: flex;
+    background-color: springgreen;
+    flex-flow: wrap column;
+}
+.container-4{
+    display: flex;
+    background-color: tomato;
+    flex-flow: wrap column-reverse;
+}
+.item{
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    background-color: skyblue;
+}
